@@ -1,3 +1,5 @@
+# this code is ripped directly from FinBot for the sake of studying. FinBot is by AI4FinanceFoundation
+
 from tenacity import retry, stop_after_attempt, wait_random_exponential
 import requests
 import json
@@ -50,7 +52,7 @@ def get_earnings_transcript(quarter: str, ticker: str, year: int):
     """
     response = requests.get(
         f"https://discountingcashflows.com/api/transcript/{ticker}/{quarter}/{year}/",
-        auth=("user", "pass"),
+        auth=("user", "dfd90c01-2eee-4171-af5f-696af68bf2f3"),
     )
 
     resp_text = json.loads(response.text)
