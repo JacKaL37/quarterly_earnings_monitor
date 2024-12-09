@@ -1,0 +1,6 @@
+
+{
+    "tickers": ["AAPL", "MSFT", "GOOGL"],
+    "years": [2023, 2024],
+    "quarters": [1, 2, 3, 4]
+}
