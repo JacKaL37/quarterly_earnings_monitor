@@ -2,3 +2,5 @@ data
 data/*
 
 .env
+
+DS_Store
